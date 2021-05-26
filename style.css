@@ -1,0 +1,76 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+}
+
+.desktop-navbar {
+    margin-top: 20px;
+}
+
+.container {
+    /* max-width: 1500px; */
+    margin: 0 auto;
+}
+
+.desktop-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+.desktop-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.farm-figure-section {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.farm-figure-header-logo {
+    border: 2px solid green;
+    border: none;
+    padding: 3px 15px;
+    font-size: 1.2rem;
+    background-color: rgba(153, 205, 50, 0.426);
+    color: yellow;
+}
+
+.desktop-search {
+    flex: 0.7;
+    padding: 10px;
+    background-color: red;
+    /* max-width: 100%; */
+}
+
+.desktop-input {
+    width: 80%;
+    padding: 3px 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.desktop-search button {
+    border: none;
+    color: #336699;
+    background-color: transparent;
+}
+
+.navbar-write-up {
+    display: flex;
+    gap: 10px;
+}
+
+.desktop-navbar-link {
+    text-decoration: none;
+}
