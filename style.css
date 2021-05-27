@@ -41,15 +41,22 @@ body {
     border: none;
     padding: 3px 15px;
     font-size: 1.2rem;
-    background-color: rgba(153, 205, 50, 0.426);
-    color: yellow;
+    background-color:#339933;
+    /* color: yellow; */
 }
-
+.logo-farm{
+    color:#001a00 ;
+}
+.logo-figure{
+    color:yellow;
+    font-weight: bold;
+}
 .desktop-search {
     flex: 0.7;
     padding: 10px;
     background-color: red;
-    /* max-width: 100%; */
+    max-width: 80%;
+    width: 40%;
 }
 
 .desktop-input {
@@ -69,8 +76,36 @@ body {
 .navbar-write-up {
     display: flex;
     gap: 10px;
+    
+}
+.desktop-link{
+    background-color: tomato;
+    flex: 1;
+    padding: 15px;
+
 }
 
-.desktop-navbar-link {
+.navbar-link {
     text-decoration: none;
+ color: gainsboro;
+ background-color:transparent;
+ border: none;
+ 
+} 
+.navbar-button{
+    padding: 15px;
+}
+.nav-login{
+    background-color: rgba(0, 128, 0, 0.075);
+    color: black;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-sign-up{
+    border:none ;
+    background-color: #003300;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
