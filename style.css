@@ -9,17 +9,26 @@ body {
 body {
     width: 100%;
     font-family: "Lato", sans-serif;
+    
+    
 }
 
 .desktop-navbar {
-    margin-top: 20px;
+   /* background-color: white; */
+
 }
 
 .container {
     /* max-width: 1500px; */
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
-
+.content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .desktop-content {
     width: 100%;
     padding: 1rem;
@@ -41,23 +50,25 @@ body {
     border: none;
     padding: 3px 15px;
     font-size: 1.2rem;
-    background-color: #339933;
+    /* background-color: #339933; */
     /* color: yellow; */
 }
 
 .logo-farm {
-    color: #001a00;
+    color: #006600;
+    font-size: 2rem;
 }
 
 .logo-figure {
     color: yellow;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .desktop-search {
     flex: 0.7;
     padding: 10px;
-    background-color: red;
+    background-color: rgba(185, 247, 185, 0.747);
     max-width: 80%;
     width: 40%;
     display: flex;
@@ -80,13 +91,16 @@ body {
 
 .navbar-write-up {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .desktop-link {
-    background-color: tomato;
+    /* background-color: tomato; */
     flex: 1;
     padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    
 }
 
 .navbar-link {
@@ -94,6 +108,7 @@ body {
     color: gainsboro;
     background-color: transparent;
     border: none;
+    color: black;
 }
 
 .navbar-button {
@@ -101,25 +116,69 @@ body {
 }
 
 .nav-login {
-    background-color: rgba(0, 128, 0, 0.075);
+    background-color: white;
     color: black;
-    border: none;
+    border: 1px solid rgb(4, 32, 4);
     font-size: 1rem;
     font-weight: bold;
+   
 }
 
 .nav-sign-up {
-    border: none;
+    border: 1px solid rgb(4, 32, 4);
     background-color: #003300;
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    display: inline-block;
+    margin-left: 4px;
 }
 
 .desktop-menu-icon {
     padding: 10px;
     background-color: #336699;
     font-size: 1.8rem;
+    display: none;
+}
+.background-phone-hand-image{
+    background-image: url(./image/hand-holding-smart-phone-case.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    max-height: 800px;
+    background-size: 100%;
+}
+.farm-figure-search{
+    width: 100%;
+    position: relative;
+    top: 40%;
+    transform: translate(40px, -50%);
+    /* margin-right: -25px; */
+    color: white;
+}
+.farm-figure-search h1{
+   margin-bottom: 8px;
+}
+.farm-figure-search h1, .farm-figure-search h3, .farm-figure-search p, .farm-figure-search input {
+    width: 100%;
+    max-width: 350px;
+    padding: 0.5rem 1.5rem ;
+    background-color: #66a3ff;
+}
+.farm-solution{
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius:5px;
+    margin-top: 8px;
+}
+.farm-figure-search input{
+    background-color: transparent;
+   
+   
+}
+.input-button{
+    border: none;
+    background-color: transparent;
 }
 
 @media only screen and (max-width: 768px) {
@@ -131,5 +190,11 @@ body {
     }
     .desktop-login {
         display: none;
+    }
+    .desktop-menu-icon{
+        display: block;
+    }
+    .farm-figure-search{
+    transform: translate(0, -50%);
     }
 }
