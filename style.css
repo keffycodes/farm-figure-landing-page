@@ -76,17 +76,20 @@ body {
 }
 
 .desktop-input {
-    width: 80%;
+    flex: 1;
     padding: 3px 20px;
     border: none;
     font-size: 1rem;
     background-color: transparent;
+    outline: none;
 }
 
 .desktop-search button {
+    padding: 0 10px;
     border: none;
     color: #336699;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .navbar-write-up {
